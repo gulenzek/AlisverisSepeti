@@ -6,20 +6,21 @@ using System.Threading.Tasks;
 
 namespace AlisverisSepeti
 {
-    partial class Urun : Temel, IUrun, IDisposable
+    public partial class Urun : Temel, IUrun, IDisposable
     {
         //
         public Urun()
         {
-            //
+            // Overload ediliyor...
         }
-        public Urun(int Id, string Ad, int KategoriId, double Fiyat, double Miktar)
+        public Urun(int Id, string Ad, int KategoriId, double Fiyat, double Miktar, MiktarTuru Tur)
         {
             _id = Id;
             _ad = Ad;
             _kategoriId = KategoriId;
             _fiyat = Fiyat;
             _miktar = Miktar;
+            _miktarTuru = Tur;
         }
 
         public void UrunEkle(int id, string ad, int kategoriId, double fiyat, double miktar)

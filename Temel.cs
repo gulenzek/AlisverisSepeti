@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AlisverisSepeti
 {
-    class Temel : ITemel
+    public class Temel : ITemel
     {
         // Temel sınıf
         public int _id { get; set; }

@@ -38,6 +38,11 @@ namespace AlisverisSepeti
                         SiparisListesiHazirla();
                         KacAdetOlacak();
             */
+            Urunler urunler = new Urunler();
+            foreach(var urun in urunler)
+            {
+                Console.WriteLine(urun.ToString());
+            }
             Siparis s1 = new Siparis();
             s1._id = 1;
             s1._ad = "İlk sipariş";

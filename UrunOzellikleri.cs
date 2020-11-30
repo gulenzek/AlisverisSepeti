@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace AlisverisSepeti
 {
+    // Enum tipinde bir özellik
     public enum MiktarTuru { Tane = 0, Kilogram = 1, Litre = 2, Metre = 3 }
     partial class Urun : Temel, IUrun, IDisposable
     {
