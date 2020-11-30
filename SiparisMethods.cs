@@ -43,6 +43,8 @@ namespace AlisverisSepeti
         }
 
         public void SiparisHazirla()
-            => Console.WriteLine("{0} {1} {2} {3}", _id, _ad, _miktar, _miktarTuru);
+        {
+            Console.WriteLine("{0} {1} {2} {3}", _id, _ad, _miktar, _miktarTuru);
+        }
     }
 }
